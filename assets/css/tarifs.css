@@ -1,0 +1,11 @@
+/* Table */
+.table-wrapper { -webkit-overflow-scrolling: touch; overflow-x: auto; }
+table { margin: 0 0 2rem 0; width: 100%; }
+table td { padding: 0.75rem 0.75rem; }
+table th { font-size: 0.9rem; font-weight: 600; padding: 0 0.75rem 0.75rem 0.75rem; text-align: left; }
+table thead { border-bottom: solid 2px; }
+table tfoot { border-top: solid 2px; }
+table tbody tr:nth-child(2n + 1) { background-color: rgba(0, 0, 0, 0.075); }
+table th { color: #555555; }
+table thead { border-bottom-color: rgba(0, 0, 0, 0.25); }
+table tfoot { border-top-color: rgba(0, 0, 0, 0.25); }
