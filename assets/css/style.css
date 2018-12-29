@@ -96,7 +96,8 @@ header.special {
     margin-right: auto; }
 
 h1,h2,h3,h4,h5,h6 {
-  font-weight: 300;
+  /*font-weight: 300;*/
+  font-weight:bold;
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0 0 1.5rem 0;
@@ -116,10 +117,12 @@ h1 {
 h2 {
   font-size: 2.25rem;
   line-height: 1.3;
+  color: red;
 }
 
 h3 {
   font-size: 1.25rem;
+  color: red;
 }
 
 h4 {

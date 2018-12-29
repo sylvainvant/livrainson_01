@@ -2,14 +2,14 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Julien Guellerin coach de jeu video</title>
+	<title>Contact Julien Guellerin</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<link rel="stylesheet" href="../assets/css/style.css" />
-<!--
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
--->
+	<link rel="stylesheet" href="../assets/css/contact.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -37,106 +37,157 @@
 		<div class="inner">
 			<h1>Julien Guellerin</h1>
 			<p>Dans quel jeu souhaitez-vous vous améliorer ?</p>
-            <a href="mailto:JulienGuellerin@gmail.com">JulienGuellerin@gmail.com</a>
+			<a href="mailto:JulienGuellerin@gmail.com">JulienGuellerin@gmail.com</a>
 		</div>
 		<video autoplay loop muted playsinline src="../assets/video/mohaa.mp4"></video>
 	</section>
-	<!-- Highlights -->
+	<!-- Contact -->
 	<section class="wrapper">
-		<div class="inner">
-			<header class="special">
-				<h2>La Gamming Adep</h2>
-				<p>En plein cœur de Roubaix, Gaming Adep est pensé pour créer les conditions optimales d’apprentissage adaptées au secteur des jeux vidéo.</p>
-			</header>
-			<div class="highlights">
-				<section>
-					<div class="content">
-						<header>
-							<a href="#" class="icon fa-vcard-o">
-								<span class="label">Icon</span>
-							</a>
-							<h3>Suivez nos cours</h3>				
-						</header>
-						<p>
-							• Progressez à votre rythme<br />
-							• Tous niveaux<br />
-							• Testez vos connaissances<br />
-							• Posez des questions directement à votre prof.
-						</p>
+		<div class="container-contact">
+			<div class="wrap-contact">
+				<form class="contact-form validate-form">
+					<span class="contact-form-title"></span>
+					<h2>Pour nous Envoyer un message</h2>
+					<label class="label-input" for="first-name">Entrer votre Nom *</label>
+					<div class="wrap-input rs1-wrap-input validate-input" data-validate="Type first name">
+						<input id="first-name" class="input" type="text" name="first-name" placeholder="Prénom">
+						<span class="focus-input"></span>
 					</div>
+					<div class="wrap-input rs2-wrap-input validate-input" data-validate="Type last name">
+						<input class="input" type="text" name="last-name" placeholder="Nom">
+						<span class="focus-input"></span>
+					</div>
+
+					<label class="label-input" for="email">Entrer votre Email *</label>
+					<div class="wrap-input validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input id="email" class="input" type="text" name="email" placeholder="Ex: example@email.com">
+						<span class="focus-input"></span>
+					</div>
+
+					<label class="label-input" for="phone">ENTRER NUMÉRO DE TÉLÉPHONE</label>
+					<div class="wrap-input">
+						<input id="phone" class="input" type="text" name="phone" placeholder="Ex. 0320000000">
+						<span class="focus-input1"></span>
+					</div>
+
+					<label class="label-input" for="message">Votre Message *</label>
+					<div class="wrap-input validate-input" data-validate = "Message is required">
+						<textarea id="message" class="input" name="message" placeholder="Écrivez-nous un message"></textarea>
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="container-contact-form-btn">
+						<button class="contact-form-btn">Envoyer le Message</button>
+					</div>
+				</form>
+
+				<div class="contact-more flex-col-c-m">
+					<h2>Pour nous Contacter</h2><br /><br /><br />
+					<div class="flex-w size1 p-b-47">
+						<div class="txt1 p-r-25">
+							<span class="fas fa-map-marker-alt"></span>
+						</div>
+						<div class="flex-col size2">
+							<span class="txt1 p-b-20">Addresse</span>
+							<span class="txt2">94 rue Léon marlot 59100 roubaix</span><br />
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.4537828928164!2d3.1897743153264018!3d50.67440137950692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3287cf91e104f%3A0xa6ae6585f5725be4!2sA.D.E.P.!5e0!3m2!1sfr!2sfr!4v1546067665750">			</iframe>	
+						</div>
+					</div>
+
+					<div class="dis-flex size1 p-b-47">
+						<div class="txt1 p-r-25">
+							<span class="fas fa-phone"></span>
+						</div>
+
+						<div class="flex-col size2">
+							<span class="txt1 p-b-20">Téléphone</span>
+							<span class="txt3">0320123687</span>
+						</div>
+					</div>
+
+					<div class="dis-flex size1 p-b-47">
+						<div class="txt1 p-r-25">
+							<span class="fas fa-envelope"></span>
+						</div>
+
+						<div class="flex-col size2">
+							<span class="txt1 p-b-20">Support général</span>
+							<span class="txt3">contact@JulienGuellerin.com</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</section>
+
+
+	<!--   retourner en haut de la page -->
+	<div id="scrollUp">
+		<a href="#top">
+			<img src="../assets/img/to_top.png" alt="haut de page" title="haut de page"/>
+		</a>
+	</div>
+
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<div class="content">
+				<section>
+					<h3>Une question ?</h3>
+					<p>
+						Pour toutes questions ou demande d'informations, merci de nous contacter par télépone, par email ou bien en remplissant le formulaire (dans le menu page Contact).
+					Vous pouvez également directement télécharger la documentation, vous inscrire à une réunion d'information ou candidater en ligne.</p>
+				</section>
+				<section>
+					<h4>Partenaires officiels</h4>
+					<ul class="alt">
+						<li>
+							<a href="#">Dolor.</a>
+						</li>
+						<li>
+							<a href="#">Etiam.</a>
+						</li>
+						<li>
+							<a href="#">Felis.</a>
+						</li>
+						<li>
+							<a href="#">pulvinar.</a>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Suivez nous sur :</h4>
+					<ul class="plain">
+						<li>
+							<a href="#"><i class="icon fa-twitter fa-3x" title="logo twitter icon" >&nbsp;</i>Twitter</a>
+						</li>
+						<li>
+							<a href="#"><i class="icon fa-facebook fa-3x" title="logo Facebook icon">&nbsp;</i>Facebook</a>
+						</li>
+						<li>
+							<a href="#"><i class="icon fa-youtube fa-3x" title="logo Youtube icon">&nbsp;</i>Youtube</a>
+						</li>
+						<li>
+							<a href="#"><i class="icon fa-twitch fa-3x" title="logo twitch icon">&nbsp;</i>twitch</a>
+						</li>
+					</ul>
 				</section>
 			</div>
-		</div>
-	</section>
-		
-
-		<!--   retourner en haut de la page -->
-		<div id="scrollUp">
-			<a href="#top">
-				<img src="../assets/img/to_top.png" alt="haut de page" title="haut de page"/>
-			</a>
-		</div>
-
-
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<div class="content">
-					<section>
-						<h3>Une question ?</h3>
-						<p>
-							Pour toutes questions ou demande d'informations, merci de nous contacter par télépone, par email ou bien en remplissant le formulaire (dans le menu page Contact).
-						Vous pouvez également directement télécharger la documentation, vous inscrire à une réunion d'information ou candidater en ligne.</p>
-					</section>
-					<section>
-						<h4>Partenaires officiels</h4>
-						<ul class="alt">
-							<li>
-								<a href="#">Dolor.</a>
-							</li>
-							<li>
-								<a href="#">Etiam.</a>
-							</li>
-							<li>
-								<a href="#">Felis.</a>
-							</li>
-							<li>
-								<a href="#">pulvinar.</a>
-							</li>
-						</ul>
-					</section>
-					<section>
-						<h4>Suivez nous sur :</h4>
-						<ul class="plain">
-							<li>
-								<a href="#"><i class="icon fa-twitter fa-3x" title="logo twitter icon" >&nbsp;</i>Twitter</a>
-							</li>
-							<li>
-								<a href="#"><i class="icon fa-facebook fa-3x" title="logo Facebook icon">&nbsp;</i>Facebook</a>
-							</li>
-							<li>
-								<a href="#"><i class="icon fa-youtube fa-3x" title="logo Youtube icon">&nbsp;</i>Youtube</a>
-							</li>
-							<li>
-								<a href="#"><i class="icon fa-twitch fa-3x" title="logo twitch icon">&nbsp;</i>twitch</a>
-							</li>
-						</ul>
-					</section>
-				</div>
-				<div class="copyright">
-					&copy; Untitled.
-				</div>
+			<div class="copyright">
+				&copy; Untitled.
 			</div>
-		</footer>	
+		</div>
+	</footer>	
 
-		<!-- Scripts -->
-		<script src="../assets/js/jquery.min.js"></script>
-		<script src="../assets/js/browser.min.js"></script>
-		<script src="../assets/js/breakpoints.min.js"></script>
-		<script src="../assets/js/util.js"></script>
-		<script src="../assets/js/main.js"></script>
-		<script src="../assets/js/to-top.js"></script>
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/to-top.js"></script>
 
-	</body>
-	</html>
+</body>
+</html>
 
