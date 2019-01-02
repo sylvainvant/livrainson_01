@@ -184,6 +184,7 @@ ul li {
 }
 
 /* fil ariane */
+
 .breadcrumb{ margin: 15px auto auto 35px; }
 .breadcrumb>a { text-decoration: none; color: #000; }
 .breadcrumb>a:visited{ color: #0f0f0f; }
