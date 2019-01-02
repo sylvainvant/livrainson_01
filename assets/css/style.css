@@ -185,10 +185,10 @@ ul li {
 
 /* fil ariane */
 
-.breadcrumb{ margin: 15px auto auto 35px; }
+.breadcrumb { margin: 15px auto auto 35px; }
 .breadcrumb>a { text-decoration: none; color: #000; }
 .breadcrumb>a:visited{ color: #0f0f0f; }
-.active{ border: 0.1vw; background-color: #FF1111; 
+.active { border: 0.1vw; background-color: #FF1111; 
   -webkit-border-radius: 2px 5%; -moz-border-radius: 2px 5%; border-radius: 2px 5%;
   padding: 5px;
   font-weight: bold;
